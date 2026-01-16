@@ -1,74 +1,198 @@
-**Privacy Policy**
+# TrakOn Privacy Policy
 
-This privacy policy applies to the TrakOn app (hereby referred to as "Application") for mobile devices that was created by LaBapps (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+**Last Updated: January 16, 2026**
 
-**Information Collection and Use**
+This Privacy Policy describes how Nathan LaBar ("we," "us," or "our") collects, uses, and protects your information when you use the TrakOn mobile application (the "App"). By using TrakOn, you agree to the collection and use of information in accordance with this policy.
 
-The Application collects information when you download and use it. This information may include information such as
+## 1. Information We Collect
 
-*   Your device's Internet Protocol address (e.g. IP address)
-*   The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-*   The time spent on the Application
-*   The operating system you use on your mobile device
+### 1.1 Account Information
+When you create an account, we collect:
+- **Name**: Your display name
+- **Email Address**: Used for account authentication and communication
+- **Password**: Securely hashed and stored by Firebase Authentication (we never see your actual password)
 
-The Application does not gather precise information about the location of your mobile device.
+### 1.2 User-Generated Content
+We collect and store the content you create in the App, including:
+- **Task Lists (Traks)**: Titles, descriptions, and metadata
+- **Task Steps**: Individual task items within your Traks
+- **Folders**: Organizational structures you create
+- **Preferences**: Any customizations or settings you configure
 
-The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:
+### 1.3 Device and Technical Information
+To provide core functionality, we collect:
+- **Device Information**: Device type, operating system version, and app version
+- **Push Notification Tokens**: Apple Push Notification service (APNs) tokens required for Live Activity updates
+- **Authentication Tokens**: Secure tokens used to maintain your login session
+- **Usage Data**: Information about your use of the App, such as which features you access and when
 
-*   Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.
-*   Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
-*   Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.
+### 1.4 Automatically Collected Information
+When you use TrakOn, we automatically collect:
+- **Log Data**: Technical logs that may include IP addresses, device identifiers, and error information
+- **Live Activity State**: Current task progress, active Traks, and activity status (stored temporarily to sync across devices)
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+## 2. How We Use Your Information
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to email, name. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+We use the information we collect to:
 
-**Third Party Access**
+- **Provide Core Services**: Enable you to create, manage, and access your task lists across devices
+- **Authenticate Your Account**: Verify your identity and maintain secure access to your data
+- **Sync Your Data**: Keep your Traks synchronized across all your devices
+- **Deliver Live Activities**: Send push notifications to update Live Activities on your lock screen
+- **Improve the App**: Analyze usage patterns to enhance functionality and fix bugs
+- **Communicate with You**: Respond to your inquiries and send important service updates
+- **Ensure Security**: Detect and prevent fraud, abuse, and security issues
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+## 3. How We Store Your Information
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+### 3.1 Data Storage
+Your information is stored using **Google Firebase**, which includes:
+- **Firebase Authentication**: Manages user accounts and authentication
+- **Cloud Firestore**: Stores your task lists, steps, folders, and user data
+- **Firebase Cloud Functions**: Processes Live Activity updates and push notifications
+- **Firebase Cloud Messaging**: Delivers push notifications to your devices
 
-*   [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
+### 3.2 Data Location
+Firebase stores data in secure data centers. Your data may be stored in data centers located in the United States or other countries where Google operates. By using TrakOn, you consent to the transfer of your information to these locations.
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+### 3.3 Data Security
+We implement industry-standard security measures to protect your information:
+- **Encryption**: Data is encrypted in transit using HTTPS/TLS
+- **Authentication**: Secure authentication through Firebase Authentication
+- **Access Controls**: Your data is only accessible to you and our authorized service providers
+- **Regular Security Updates**: We keep our systems and dependencies up to date
 
-*   as required by law, such as to comply with a subpoena, or similar legal process;
-*   when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-*   with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your information, we cannot guarantee absolute security.
 
-**Opt-Out Rights**
+## 4. Third-Party Services
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+### 4.1 Google Firebase
+TrakOn uses Google Firebase services provided by Google LLC. Firebase acts as our data processor and stores your information according to their privacy practices. For more information about how Google handles data, please review:
+- [Google Privacy Policy](https://policies.google.com/privacy)
+- [Firebase Privacy and Security](https://firebase.google.com/support/privacy)
 
-**Data Retention Policy**
+### 4.2 Apple Services
+TrakOn integrates with Apple services, including:
+- **Apple Push Notification Service (APNs)**: Used to deliver Live Activity updates to your device
+- **iCloud**: May be used for additional data synchronization (if applicable)
 
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at nathnlbr@gmail.com and they will respond in a reasonable time.
+Your use of Apple services is also subject to [Apple's Privacy Policy](https://www.apple.com/privacy/privacy-policy/).
 
-**Children**
+## 5. Data Sharing and Disclosure
 
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:
 
-The Application does not address anyone under the age of 13\. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (nathnlbr@gmail.com) so that they will be able to take the necessary actions.
+- **Service Providers**: With trusted third-party service providers (like Firebase) who assist in operating the App, subject to confidentiality agreements
+- **Legal Requirements**: When required by law, court order, or government regulation
+- **Protection of Rights**: To protect our rights, property, or safety, or that of our users
+- **Business Transfers**: In connection with a merger, acquisition, or sale of assets (with notice to users)
 
-**Security**
+## 6. Your Rights and Choices
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+### 6.1 Access and Correction
+You can access and update your account information at any time through the App's profile settings.
 
-**Changes**
+### 6.2 Data Deletion
+You have the right to request deletion of your account and associated data. To delete your account:
+1. Open the TrakOn app
+2. Go to Profile settings
+3. Select "Delete Account" or contact us at nathnlbr@gmail.com
 
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+When you delete your account, we will:
+- Delete your user account and authentication information
+- Delete all your Traks, task steps, and folders
+- Delete your Live Activity data
+- Remove your data from our systems within 30 days
 
-This privacy policy is effective as of 2025-11-30
+**Note**: Some information may be retained in backup systems for a limited time as required by law or for legitimate business purposes.
 
-**Your Consent**
+### 6.3 Opt-Out Options
+- **Push Notifications**: You can disable push notifications through your device settings, though this will prevent Live Activities from updating
+- **Account Deletion**: You can delete your account at any time as described above
 
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+### 6.4 California Privacy Rights (CCPA)
+If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
+- Right to know what personal information we collect
+- Right to delete your personal information
+- Right to opt-out of the sale of personal information (we do not sell your information)
+- Right to non-discrimination for exercising your privacy rights
 
-**Contact Us**
+### 6.5 European Privacy Rights (GDPR)
+If you are located in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR):
+- Right to access your personal data
+- Right to rectification of inaccurate data
+- Right to erasure ("right to be forgotten")
+- Right to restrict processing
+- Right to data portability
+- Right to object to processing
+- Right to withdraw consent
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at nathnlbr@gmail.com.
+To exercise any of these rights, please contact us at nathnlbr@gmail.com.
 
-* * *
+## 7. Children's Privacy
 
-This privacy policy page was generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+TrakOn is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately. If we become aware that we have collected personal information from a child under 13, we will take steps to delete such information.
+
+## 8. Data Retention
+
+We retain your information for as long as your account is active or as needed to provide services to you. If you delete your account, we will delete your personal information within 30 days, except where we are required to retain it for:
+- Legal compliance
+- Dispute resolution
+- Enforcement of agreements
+- Legitimate business interests
+
+## 9. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any material changes by:
+- Posting the new Privacy Policy in the App
+- Updating the "Last Updated" date
+- Sending you an email notification (if you have provided an email address)
+
+Your continued use of TrakOn after any changes constitutes acceptance of the updated Privacy Policy.
+
+## 10. International Users
+
+If you are using TrakOn from outside the United States, please note that your information may be transferred to, stored, and processed in the United States and other countries where our service providers operate. By using TrakOn, you consent to the transfer of your information to these countries, which may have different data protection laws than your country of residence.
+
+## 11. Contact Us
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
+
+**Nathan LaBar**
+- Email: nathnlbr@gmail.com
+
+We will respond to your inquiry within 30 days.
+
+## 12. Additional Information
+
+### 12.1 Live Activities
+TrakOn uses iOS Live Activities to display your tasks on your lock screen. This feature requires:
+- Push notification permissions
+- APNs tokens to deliver updates
+- Temporary storage of activity state in Firebase
+
+You can disable Live Activities at any time through your device settings, though this will limit the App's core functionality.
+
+### 12.2 Cross-Device Synchronization
+Your Traks are synchronized across devices using Firebase. This means:
+- Your data is stored in the cloud
+- Changes on one device appear on all your devices
+- You must be logged in to the same account on all devices
+
+### 12.3 No Analytics or Advertising
+TrakOn does not currently use analytics services or display advertising. We do not track your behavior for advertising purposes or share your data with advertisers.
+
+---
+
+**By using TrakOn, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and use of your information as described herein.**
+
+---
+
+**Note**: This privacy policy is designed to comply with:
+- General Data Protection Regulation (GDPR)
+- California Consumer Privacy Act (CCPA)
+- Children's Online Privacy Protection Act (COPPA)
+- Apple App Store requirements
+
+If you have specific questions about how your data is handled, please contact us at nathnlbr@gmail.com.
+
