@@ -4,14 +4,15 @@
    ============================================ */
 
 :root {
-  --color-bg: #f7f4ef;
+  --color-bg: #f2f7fc;
   --color-surface: #ffffff;
-  --color-text: #1c1c24;
-  --color-muted: #5c5c6d;
-  --color-accent: #c45c3e;
-  --color-accent-soft: #f4ddd5;
-  --color-accent-dark: #9a3f28;
-  --color-border: #e4dfd6;
+  --color-text: #152238;
+  --color-muted: #5a6d82;
+  --color-accent: #2f6fed;
+  --color-accent-soft: #d6e8ff;
+  --color-accent-muted: #a8ccef;
+  --color-accent-dark: #1a4fb8;
+  --color-border: #d0e0f0;
 
   --font-display: "Outfit", system-ui, sans-serif;
   --font-body: "DM Sans", system-ui, sans-serif;
@@ -171,7 +172,7 @@ p {
   inset: 0 0 auto;
   z-index: 100;
   height: var(--header-height);
-  background: rgba(247, 244, 239, 0.82);
+  background: rgba(242, 247, 252, 0.82);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid transparent;
   transition: border-color 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
@@ -316,7 +317,7 @@ p {
   height: 320px;
   bottom: 15%;
   left: -5%;
-  background: #d8e8e4;
+  background: var(--color-accent-muted);
   animation-delay: -4s;
 }
 
@@ -510,20 +511,22 @@ p {
 }
 
 .project-image {
-  overflow: hidden;
-  aspect-ratio: 16 / 10;
-  background: linear-gradient(135deg, var(--color-accent-soft), #d8e8e4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(135deg, var(--color-accent-soft), var(--color-accent-muted));
 }
 
 .project-image img {
-  width: 100%;
-  height: 100%;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   object-fit: contain;
-  transition: transform 0.5s var(--ease-out);
-}
-
-.project-card:hover .project-image img {
-  transform: scale(1.04);
+  object-position: center;
 }
 
 .project-body {
@@ -690,7 +693,7 @@ p {
     align-items: stretch;
     gap: 0;
     padding: 1rem;
-    background: rgba(247, 244, 239, 0.98);
+    background: rgba(242, 247, 252, 0.98);
     border-bottom: 1px solid var(--color-border);
     transform: translateY(-120%);
     opacity: 0;
